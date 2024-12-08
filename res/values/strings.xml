@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Focus Game</string>
+    <string name="title_name">Por favor, Introduzca \n su nombre</string>
+    <string name="next">Continuar</string>
+
+</resources>

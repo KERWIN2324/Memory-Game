@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnChangeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Nombre" />
+
+    <Button
+        android:id="@+id/btnToggleSound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar/Desactivar Sonido"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contactar"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/tvWelcome"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/title_name"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    app:background="@color/white"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.38" />
+
+<EditText
+    android:id="@+id/etName"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="32dp"
+    android:maxLines="1"
+    android:textSize="20sp"
+    android:singleLine="true"
+    android:padding="10sp"
+    tools:text="Ana lucia"
+    app:circularflow_radiusInDP="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tvWelcome"
+    app:layout_constraintVertical_bias="0.05"
+    android:background="@drawable/edit_text_borde"/>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btnContinue"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:text="@string/next"
+    android:textSize="20sp"
+    android:background="@drawable/button_borde"
+    android:textAllCaps="false"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/etName"
+    android:gravity="center"
+    app:layout_constraintVertical_bias="0.05" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

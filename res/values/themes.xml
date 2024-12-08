@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Base.Theme.FocusGame" parent="Theme.Material3.Light.NoActionBar">
+
+    </style>
+
+    <style name="Theme.FocusGame" parent="Base.Theme.FocusGame" />
+
+</resources>
+
